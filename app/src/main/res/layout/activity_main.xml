@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="329dp"
+        android:layout_height="417dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:onClick="GetScoreOnClick"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/furkaninkafasi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/TextViewTime"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="457dp"
+        android:text="Time: 10"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextViewScore"
+        android:layout_width="142dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="44dp"
+        android:text="Score: 0"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewTime"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
