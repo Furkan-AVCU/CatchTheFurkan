@@ -1,7 +1,7 @@
 # CatchTheFurkan
 Simple Mini Game Cath The Furkan !
 
-Made about 2 years ago to learn grid layout and prcatice about countdown timer
+Made about 2 years ago to learn grid layout and practice about countdown timer
 
 # How It Looks
 
